@@ -1,0 +1,147 @@
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+ul li{
+    list-style:none;
+}
+a{
+    text-decoration:none;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.text-align-center{
+align-items: center;
+}
+body{
+font-family: Arial, Helvetica, sans-serif;
+background-color:whitesmoke;
+}
+.btn{
+box-shadow: 1px solid #fff;
+padding: 5px;
+background-color: #333;
+color: #fff;
+border: 150%;
+padding-bottom: 6px;
+}
+
+/* ----NAV START----- */
+nav{
+/* background-color:#77777756; */
+box-shadow: 10px 10px 30px #3333339a;
+padding-bottom: 20px;
+margin-bottom: 40px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav .row{
+    justify-content: space-between;
+    text-align: justify;
+}
+nav ul li a{
+    padding: 20px 40px;
+    display: block;
+    color: black
+}
+.btn-primary{
+    background-color: orangered;
+    box-shadow: 3px solid #fff;
+    border-radius: 10px ;
+    padding: 20px ;
+}
+
+
+/* ----NAV END----- */
+
+/* ----BANNER START--- */
+.banner{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 350px;
+    padding: 10px ;
+    margin: 20px 5px;
+    width: 400px;
+    background-color: wheat;
+    display: inline-block;
+    padding-bottom: 60px;
+    margin-bottom: 80px;
+    border-radius: 10px 20px;
+
+
+}
+.banner h4{
+padding-bottom: 5px;
+color: coral;
+}
+    
+
+h1{
+    font-family: sans-serif;
+    text-align:start;
+    
+}
+p{
+    text-align: justify;
+padding: 15px;
+
+    }
+
+
+.bannercnt{
+    margin: auto;
+    width: fit-content;
+}
+.imgg{
+    width: 100%;
+}
+
+/* ---BANNER END---- */
+/* -----FOOTER START----- */
+#footer{
+    background-color: black;
+    text-align: center;
+    padding: 100px;
+}
+#footer .container{
+    width: 100%;
+   
+    margin-right: auto;
+    margin-left: auto;
+}
+#footer .container h1{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+#footer .container p{
+    text-align: center;
+    font-size: 20px;
+    color: grey;
+    padding: 10px 0 20px;
+}
+.designpart{
+    color:white ;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+#footer .row{
+    justify-content: space-between;
+    align-items: center;
+}
+.uper{
+    margin-bottom:20px;
+    display: block;
+}
+#footer ul li a{
+    padding: 10px  ;
+    display: block;
+    color: rgba(128, 128, 128, 0.719);
+}
+
+/* ----FOTTER END---- */
